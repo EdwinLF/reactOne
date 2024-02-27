@@ -1,10 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
-
+import { PageOne } from './assets/components/pageOne'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    <PageOne name="ewin" text="estoy aprendiendo jaj"/>
   </React.StrictMode>,
 )
